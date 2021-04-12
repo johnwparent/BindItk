@@ -1,0 +1,124 @@
+files:
+  itkArray.h:
+    namespaces:
+      itk:
+        classes:
+          Array:
+            inst:
+              [double, float, unsigned long, unsigned int]
+  itkLightObject.h:
+    namespaces:
+      itk:
+        classes:
+          LightObject:
+  itkObject.h:
+    namespaces:
+      itk:
+        classes:
+          Object:
+  itkFixedArray.h:
+    namespaces:
+      itk:
+        classes:
+          FixedArray:
+            inst:
+              - [double, 1 ]
+              - [double, 2 ]
+              - [double, 3 ]
+              - [double, 4 ]
+              - [double, 5 ]
+              - [double, 6 ]
+              - [double, 10]
+              - [float, 1 ]
+              - [float, 2 ]
+              - [float, 3 ]
+              - [float, 4 ]
+              - [float, 5 ]
+              - [float, 6 ]
+              - [float, 10]
+  itkArray2D.h:
+    namespaces:
+      itk:
+        classes:
+          itkArray2D:
+            inst:
+              [double, float, unsigned int]
+  itkPoint.h:
+    namespaces:
+      itk:
+        classes:
+          Point:
+            inst:
+              - [double, 1 ]
+              - [double, 2 ]
+              - [double, 3 ]
+              - [double, 4 ]
+              - [double, 5 ]
+              - [double, 6 ]
+              - [float, 1 ]
+              - [float, 2 ]
+              - [float, 3 ]
+              - [float, 4 ]
+              - [float, 5 ]
+              - [float, 6 ]
+  itkCommand.h:
+    namespaces:
+      itk:
+        classes:
+          itkCommand:
+  itkExceptionObject.h:
+    namespaces:
+      itk:
+        classes:
+          ExceptionObject:
+  itkVector.h:
+    namespaces:
+      itk:
+        classes:
+          Vector:
+            inst:
+              - [double, 1 ]
+              - [double, 2 ]
+              - [double, 3 ]
+              - [double, 4 ]
+              - [double, 5 ]
+              - [double, 6 ]
+              - [float, 1 ]
+              - [float, 2 ]
+              - [float, 3 ]
+              - [float, 4 ]
+              - [float, 5 ]
+              - [float, 6 ]
+  itkSize.h:
+    namespaces:
+      itk:
+        classes:
+          Size:
+            inst:
+              [2, 3, 4, 5, 6]
+  itkRGBPixel.h:
+    namespaces:
+      itk:
+        classes:
+          RGBPixel:
+            inst:
+              [double, float, unsigned int, unsigned short, unsigned long]
+  itkOctreeBase.h:
+    namespaces:
+      itk:
+        classes:
+          Octreebase:
+  itkDataObject:
+    namespaces:
+      itk:
+        classes:
+          DataObject:
+          DataObjectError:
+          InvalidRequestRegionError:
+  itkMatrix.h:
+    namespaces:
+      itk:
+        classes:
+          Matrix:
+            inst:
+              [double, float, unsigned int, long long, unsigned short]

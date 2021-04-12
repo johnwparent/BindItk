@@ -1,1 +1,1 @@
-Example repository generating python bindings for ITK via Autopybind11
+Example repository generating python bindings for ITK via Autopybind11 automated binding generator
